@@ -1,5 +1,6 @@
 #ifndef SOCIALNETWORK_H
 #define SOCIALNETWORK_H
+
 #include<string>
 #include <vector>
 

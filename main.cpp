@@ -2,8 +2,6 @@
 
 #include "socialnetwork.h"
 
-using namespace std;
-
 int main()
 {
     SocialNetwork sn;

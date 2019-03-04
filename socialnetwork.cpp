@@ -1,5 +1,7 @@
-#include "socialnetwork.h"
 #include <iostream>
+
+#include "socialnetwork.h"
+
 
 
 void SocialNetwork::addUser(std::string name,unsigned int age,unsigned int height, std::string gender, std::vector<std::string> hobbies,unsigned int id, std::vector<std::string> friends )
