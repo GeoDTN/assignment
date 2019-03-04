@@ -32,7 +32,7 @@ public:
     void setHobbies(std::vector<std::string>);
    std::map<unsigned int,std::string> getUser();
     bool setUser();
-   //std::tuple<std::string,unsigned int, std::vector<unsigned int>> getEntry();
+   std::tuple<std::string,unsigned int, std::vector<unsigned int>> getEntry();
    void setEntry(std::tuple<std::string,unsigned int, std::vector<unsigned int>>);
    std::vector<std::string> getFriends();
    void setFriends(std::vector<std::string>);
