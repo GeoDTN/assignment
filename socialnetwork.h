@@ -3,6 +3,7 @@
 
 #include<string>
 #include <vector>
+#include <list>
 
 #include"user.h"
 
@@ -19,7 +20,7 @@ std::vector<std::string> getFriendsOfUser(unsigned int);
 
 private:
     User u;
-    std::vector<User> us;
+    std::list<User> us;
 };
 
 #endif // SOCIALNETWORK_H
