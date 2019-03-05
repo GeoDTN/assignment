@@ -16,6 +16,8 @@ int main()
     std::cout<<sn.searchUserByName("Abraham")<<"\n";
     std::cout<<sn.searchUserByAge(20)<<"\n";
     std::cout<<sn.searchUserByAge(3)<<"\n";
+    std::cout<<sn.searchUserByHobbies({"Volley Ball","Joker","Table tennis","Soccer"})<<"\n";
+    std::cout<<sn.searchUserByHobbies({"Foot ball","Running","Singing"})<<"\n";
     return 0;
 
 }
