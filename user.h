@@ -19,22 +19,22 @@ class User {
 
 public:
     std::string getName();
-    void setName(std::string);
+    void setName(std::string&);
     unsigned int getId();
-    void setId(unsigned int );
+    void setId(unsigned int & );
     std::string getGender();
-    void setGender(std::string);
+    void setGender(std::string &);
     unsigned int getAge();
-    void setAge(unsigned int);
+    void setAge(unsigned int&);
     unsigned int getHeight();
-    void setHeight(unsigned int);
+    void setHeight(unsigned int&);
    std::vector<std::string> getHobbies();
-    void setHobbies(std::vector<std::string>);
+    void setHobbies(std::vector<std::string>&);
    std::map<unsigned int,std::string> getUser();
-    bool setUser(unsigned int ,std::string );
+    bool setUser(unsigned int& ,std::string& );
    std::tuple<std::string,unsigned int, std::vector<unsigned int>> getEntry();
-   void setEntry(std::tuple<std::string,unsigned int, std::vector<unsigned int>>);
+   void setEntry(std::tuple<std::string,unsigned int, std::vector<unsigned int>>&);
    std::vector<std::string> getFriends();
-   void setFriends(std::vector<std::string>);
+   void setFriends(std::vector<std::string>&);
 };
 #endif // USER_H
