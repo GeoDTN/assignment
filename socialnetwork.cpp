@@ -6,7 +6,7 @@
 
 void SocialNetwork::addUser(std::string name,unsigned int age,unsigned int height, std::string gender, std::vector<std::string> hobbies,unsigned int id, std::vector<std::string> friends )
 {
-    if(u.getId()==id)
+    if(!u.setUser(id,name))
         {
             printf("User exists");
             return;
