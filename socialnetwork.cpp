@@ -82,8 +82,9 @@ bool SocialNetwork:: searchUserByHobbies(std::vector<std::string>hobbies)
         if(it->getHobbies()==hobbies)
         {
             exists=true;
+            break;
         }
-        break;
+
         ++it;
     }
     return exists;

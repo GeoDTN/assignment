@@ -12,6 +12,8 @@ int main()
     sn.addUser("Somano",20,170,"male",{"Foot ball","",""},5,{"John","Benjamin","George","Akmos"} );
     sn.addUser("Somano",20,170,"male",{"Volley Ball","Joker","Table tennis","Soccer"},6,{"John","Tadewos"} );
     sn.deleteUser(3);
+    std::cout<<sn.searchUserByName("James")<<"\n";
+    std::cout<<sn.searchUserByName("Abraham")<<"\n";
     return 0;
 
 }
