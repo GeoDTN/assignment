@@ -44,10 +44,10 @@ std::map<unsigned int,std::string> User:: getUser()
 {
     return  this->user;
 }
-bool User:: setUser()
+bool User:: setUser(unsigned int id,std::string name )
 {
 
-    if(!this->user.insert(std::pair<unsigned int,std::string>(getId(),getName())).second)
+    if(!this->user.insert(std::pair<unsigned int,std::string>(id,name)).second)
         return false;
     else
     return true;

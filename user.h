@@ -31,7 +31,7 @@ public:
    std::vector<std::string> getHobbies();
     void setHobbies(std::vector<std::string>);
    std::map<unsigned int,std::string> getUser();
-    bool setUser();
+    bool setUser(unsigned int ,std::string );
    std::tuple<std::string,unsigned int, std::vector<unsigned int>> getEntry();
    void setEntry(std::tuple<std::string,unsigned int, std::vector<unsigned int>>);
    std::vector<std::string> getFriends();

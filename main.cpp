@@ -14,6 +14,8 @@ int main()
     sn.deleteUser(3);
     std::cout<<sn.searchUserByName("James")<<"\n";
     std::cout<<sn.searchUserByName("Abraham")<<"\n";
+    std::cout<<sn.searchUserByAge(20)<<"\n";
+    std::cout<<sn.searchUserByAge(3)<<"\n";
     return 0;
 
 }
